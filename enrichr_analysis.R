@@ -41,4 +41,4 @@ write.table(
   quote=FALSE
 )
 
-Significance is typically evaluated using q-values (Benjamini-corrected p-values).
+#Significance is typically evaluated using q-values (Benjamini-corrected p-values).
