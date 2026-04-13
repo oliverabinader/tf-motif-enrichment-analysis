@@ -1,23 +1,35 @@
-Transcription Factor and Motif Enrichment 
------------------------------------------
-Analysis Overview:
-This repository contains example workflows for performing transcription factor enrichment analysis and motif enrichment analysis following differential gene expression analysis from RNA-seq experiments.
-The analyses presented here focus on identifying potential regulatory mechanisms underlying sets of upregulated and downregulated genes.
+**Transcription Factor and Motif Enrichment Analysis**
 
-Two complementary approaches are demonstrated:
-Transcription factor enrichment using Enrichr
-Motif enrichment using HOMER
+**Overview**
 
-These analyses help infer transcription factors that may regulate the observed gene expression patterns.
+This repository provides example workflows for performing transcription factor (TF) enrichment analysis and motif enrichment analysis following differential gene expression (DGE) analysis from RNA-seq experiments.
 
-General workflow
-----------------
-Typical workflow after differential expression analysis:
-1) Obtain a table of differentially expressed genes (DEGs) from RNA-seq analysis.
-2) Filter genes using significance thresholds such as:
-	Adjusted p-value (FDR / padj) < 0.05
-	|log2FoldChange| ≥ 1
-3) Split genes into two groups:
-	Upregulated genes
-	Downregulated genes
-4) Perform enrichment analysis separately for each group.
+The analyses aim to identify potential regulatory mechanisms underlying sets of upregulated and downregulated genes, helping infer transcription factors that may drive the observed gene expression patterns.
+
+Two complementary approaches are demonstrated
+=============================================
+- Transcription Factor Enrichment using Enrichr
+- Motif Enrichment using HOMER
+
+**Workflow**
+
+The typical workflow after performing differential expression analysis is as follows:
+
+- Generate a table of DEGs from your RNA-seq data.
+- Filter Genes
+- Apply significance thresholds, for example:
+	Adjusted p-value (FDR / padj) < 0.05 & |log2FoldChange| ≥ 1
+- Split Genes into Groups
+- Separate the filtered genes into:
+	- Upregulated genes
+	- Downregulated genes
+- Conduct enrichment analysis separately for upregulated and downregulated gene sets:
+	- TF Enrichment: Identify transcription factors likely regulating each gene set using Enrichr.
+	- Motif Enrichment: Identify enriched DNA sequence motifs in gene promoters using HOMER.
+
+**Goals**
+
+By following this workflow, you can:
+- Discover key transcription factors driving gene expression changes.
+- Identify DNA motifs that may serve as regulatory elements.
+- Gain insight into the regulatory networks underlying your RNA-seq data.
