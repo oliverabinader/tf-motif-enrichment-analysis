@@ -1,4 +1,5 @@
 **Transcription Factor and Motif Enrichment Analysis**
+======================================================
 
 **Overview**
 
@@ -6,7 +7,7 @@ This repository provides example workflows for performing transcription factor (
 
 The analyses aim to identify potential regulatory mechanisms underlying sets of upregulated and downregulated genes, helping infer transcription factors that may drive the observed gene expression patterns.
 
-**Two complementary approaches are demonstrated**
+Two complementary approaches are demonstrated:
 - Transcription Factor Enrichment using Enrichr
 - Motif Enrichment using HOMER
 
