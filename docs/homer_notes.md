@@ -14,7 +14,5 @@ These lists are then used as input for: findMotifs.pl for promoter motif enrichm
 
 References
 ----------
-HOMER installation documentation
-http://homer.ucsd.edu/homer/introduction/install.html
-HOMER motif analysis documentation
-http://homer.ucsd.edu/homer/microarray/index.html
+- HOMER installation documentation: http://homer.ucsd.edu/homer/introduction/install.html
+- HOMER motif analysis documentation: http://homer.ucsd.edu/homer/microarray/index.html
