@@ -18,7 +18,5 @@ When using the Enrichr transcription factor databases:
 
 References
 ----------
-Enrichr methodology paper
-https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-128
-Enrichr enrichment analysis tutorial
-https://ycl6.github.io/GO-Enrichment-Analysis-Demo/4_enrichR.html
+- Enrichr methodology paper: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-128
+- Enrichr enrichment analysis tutorial: https://ycl6.github.io/GO-Enrichment-Analysis-Demo/4_enrichR.html
